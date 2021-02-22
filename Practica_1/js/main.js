@@ -6,6 +6,6 @@ function iniciaMapa() {
     var map = new google.maps.Map(document.getElementById('mapa'),
     {
         center : coordenadas,
-        zoom: 20
+        zoom: 15
     });
 }
