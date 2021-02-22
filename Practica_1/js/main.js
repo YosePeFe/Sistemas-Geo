@@ -1,4 +1,4 @@
-    AOS.init()
+
     function iniciaMapa(){
         var coordenadas = {
             lat : 21.152639, lng: -101.711598
