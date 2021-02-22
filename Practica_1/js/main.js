@@ -1,11 +1,11 @@
 AOS.init();
-function iniciaMapa(){
-    var coordenadas = {
-        lat : 21.152639, lng: -101.711598
-    } 
+function iniciaMapa() {
+    var coordenadas ={
+        lat : 16.861254, lng : -99.875713
+    }
     var map = new google.maps.Map(document.getElementById('mapa'),
     {
-        centrar : coordenadas,
-        zoom : 15
-        });
-    } 
+        center : coordenadas,
+        zoom: 15
+    });
+}
