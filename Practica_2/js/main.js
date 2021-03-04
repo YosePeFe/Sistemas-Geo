@@ -11,3 +11,4 @@ function obtieneDatos() {
     datos[2].innerHTML = "Estatus de Internet: " + navigator.onLine;
     datos[3].innerHTML = "Plataforma: " + navigator.platform;
 }
+
