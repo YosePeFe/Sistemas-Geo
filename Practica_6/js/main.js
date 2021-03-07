@@ -1,5 +1,4 @@
 function iniciaMapa() {
-
     var map;
 
 var coordenadas = {
@@ -28,7 +27,6 @@ var propiedades = {
     });
 
     if (navigator.geolocation) {
-
         setInterval(() => {
             moverPosicion(marker);
             console.log("Mueve posición");
@@ -36,7 +34,6 @@ var propiedades = {
     }
 
     function moverPosicion(marker) {
-
         navigator.geolocation.getCurrentPosition(posicion => {
             var pos = {
                 lat: posicion.coords.latitude,
@@ -46,9 +43,6 @@ var propiedades = {
             marker.setPosition(pos);
             map.panTo(pos);
             map.setCenter(pos);
-
         });
-
     }
-
 }
