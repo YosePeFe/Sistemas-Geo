@@ -33,8 +33,6 @@ var propiedades = {
             moverPosicion(marker);
             console.log("Mueve posición");
         }, 5000);
-
-
     }
 
     function moverPosicion(marker) {
