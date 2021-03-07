@@ -1,8 +1,8 @@
 function iniciaMapa() {
 
-    var informacion =  "<h1>Universidad DeLaSalle Bajío AC.</h1>"
-            informacion += "<p><strong>Dirección:</strong> Avenida Universidad 602, Lomas del Campestre, 37150 León, Gto, México.</p>"
-            informacion += "<p><strong>Teléfono:</strong>477 710 8500.</p>"
+    var informacion =  "<h5>Universidad DeLaSalle Bajío AC.</h5>"
+        informacion += "<p><strong>Dirección:</strong> Avenida Universidad 602, Lomas del Campestre, 37150 León, Gto, México.</p>"
+        informacion += "<p><strong>Teléfono:</strong> 477 710 8500.</p>"
 
     var propiedades = {
         center: {
