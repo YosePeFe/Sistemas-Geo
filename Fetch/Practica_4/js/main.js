@@ -88,7 +88,7 @@ function iniciaMapa() {
             }
         ],
         const: image =
-        "https://www.flaticon.com/svg/vstatic/svg/2913/2913604.svg?token=exp=1615861054~hmac=90df54ff72b576927a244314aef83ef5",
+    "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
   const: beachMarker = new google.maps.Marker({
     position: { lat: -33.89, lng: 151.274 },
     map,
