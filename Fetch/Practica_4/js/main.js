@@ -108,8 +108,7 @@ function iniciaMapa() {
                                             map: map,
                                             position: new google.maps.LatLng(marcador.CapitalLatitude, marcador.CapitalLongitude),
                                             title: marcador.CountryName + registro.cases,
-                                            image: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-
+                                            icon: "https://maps.google.com/mapfiles/kml/shapes/parking_lot_maps.png"
                                         });
 
                                         marker.addListener('click', function () {
