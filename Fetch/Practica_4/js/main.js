@@ -7,6 +7,14 @@ function iniciaMapa() {
     var propiedades = {
         center: coordenadas,
         zoom: 2,
+        const: image =
+    "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
+  const: beachMarker = new google.maps.Marker({
+    position: { lat: -33.89, lng: 151.274 },
+    map,
+    icon: image,
+  }),
+
         styles: [
             { elementType: 'geometry', stylers: [{ color: '#242f3e' }] },
             { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
@@ -86,15 +94,7 @@ function iniciaMapa() {
                 elementType: 'labels.text.stroke',
                 stylers: [{ color: '#17263c' }]
             }
-        ],
-        const: image =
-    "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-  const: beachMarker = new google.maps.Marker({
-    position: { lat: -33.89, lng: 151.274 },
-    map,
-    icon: image,
-  })
-
+        ]
     }
 
     fetch('./paises.json')
