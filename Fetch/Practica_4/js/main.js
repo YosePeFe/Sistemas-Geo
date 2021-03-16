@@ -110,7 +110,6 @@ function iniciaMapa() {
                                             title: marcador.CountryName + registro.cases,
                                             icon: "./coronavirus.png"
                                         });
-
                                         marker.addListener('click', function () {
                                             infowindow.open(map, marker);
                                         });
