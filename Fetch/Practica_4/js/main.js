@@ -7,9 +7,8 @@ function iniciaMapa() {
     var propiedades = {
         center: coordenadas,
         zoom: 2,
-        const: image =
-    "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-  const: beachMarker = new google.maps.Marker({
+        image: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
+        beachMarker = new google.maps.Marker({
     position: { lat: -33.89, lng: 151.274 },
     map,
     icon: image,
@@ -115,7 +114,9 @@ function iniciaMapa() {
                                         let marker = new google.maps.Marker({
                                             map: map,
                                             position: new google.maps.LatLng(marcador.CapitalLatitude, marcador.CapitalLongitude),
-                                            title: marcador.CountryName + registro.cases
+                                            title: marcador.CountryName + registro.cases,
+                                            image: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
+
                                         });
 
                                         marker.addListener('click', function () {
