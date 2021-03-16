@@ -26,7 +26,8 @@
                 response.json().then(function (datos) {
                     datos.forEach(registro => {
                         console.log(registro.country);
-                        let nombre = document.createElement("p");
+                        let nombre = document.createElement("li");
+                        nombre.className = "list-group-item";
                         nombre.textContent = "País: " + registro.country + ", casos:" + registro.cases;
                         paises.appendChild(nombre);
                     });
