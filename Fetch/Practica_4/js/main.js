@@ -108,7 +108,7 @@ function iniciaMapa() {
                                             map: map,
                                             position: new google.maps.LatLng(marcador.CapitalLatitude, marcador.CapitalLongitude),
                                             title: marcador.CountryName + registro.cases,
-                                            icon: "https://maps.google.com/mapfiles/kml/shapes/parking_lot_maps.png"
+                                            icon: "./coronavirus.png"
                                         });
 
                                         marker.addListener('click', function () {
