@@ -1,4 +1,4 @@
-var coordenadas = {
+/* var coordenadas = {
     lat: -31.563910, lng: 147.154312
 }
 
@@ -24,5 +24,4 @@ function iniciaMapa() {
             center: coordenadas,
             zoom: 3
         }
-    );
-}
+    ); */
