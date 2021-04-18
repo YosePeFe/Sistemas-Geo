@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(227, 242, 255);
+}
+
+#mapa1, #mapa2, #mapa3, #mapa4, #mapa5, #mapa6 {
+    width: 100%;
+    height: 340px;
+}
