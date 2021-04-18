@@ -1,11 +1,11 @@
 function iniciaMapa(){
 
 
-    var coordenadas = {  lat: 21.152639, lng:  -101.711598 };
+    var coordenadas = {  lat: 52.35888648051224, lng:  4.881265729077165 };
 
     var propiedades1 = {
         center: coordenadas,
-        zoom: 12
+        zoom: 15
     };
 
     var mapa1 = new google.maps.Map(document.getElementById('mapa1'),propiedades1);
@@ -13,7 +13,7 @@ function iniciaMapa(){
 
     var propiedades2 = {
         center: coordenadas,
-        zoom: 12,
+        zoom: 15,
         disableDefaultUI: true
     };
 
@@ -21,7 +21,7 @@ function iniciaMapa(){
 
     var propiedades3 = {
         center: coordenadas,
-        zoom: 12,
+        zoom: 15,
         zoomControl: false,
         scaleControl: false
     };
@@ -44,7 +44,7 @@ function iniciaMapa(){
 
     var propiedades5 = {
         center: coordenadas,
-        zoom: 12,
+        zoom: 15,
         mapTypeControl: true,
         mapTypeControlOptions : {
             style : google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
@@ -66,15 +66,15 @@ function iniciaMapa(){
 
 
     var limites = {
-        north: 21.390039,
-        south: 20.858414,
-        west: -102.149631,
-        east:  -101.092990
+        north: 52.37639,
+        south: 52.35700,
+        west: 4.87211,
+        east:  4.92000, 
     }
 
     var propiedades6 = {
         center: coordenadas,
-        zoom: 12,
+        zoom: 15,
         restriction: {
             latLngBounds : limites,
             strictBounds : false

@@ -4,14 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maps Controls</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <div class="row justify-content-center">
+        <div class="col-1 text-center">
+            <img src="./img/paises-bajos.png" id="img1" alt="...">
+        </div>
+        <div class="col-6 text-center">
+            <h1 class="h1">Maps Controls</h1>
+        </div>
+        <div class="col-1 text-center">
+            <img src="./img/molino.png" id="img2" alt="...">
+        </div>
+    </div>
 
-    <div class="container-fluid m-2 text-center">
+    <div class="container-fluid ">
+        <div class="container">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active col-12">
+                        <div id="mapa1" class="justify-content-center d-block"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Map with standard controls</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div id="mapa2" class="justify-content-center d-block"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Map without controls</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div id="mapa3" class="justify-content-center d-block"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Map without zoom</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div id="mapa4" class="justify-content-center d-block"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>ControlOptions Map</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div id="mapa5" class="justify-content-center d-block"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>ControlPosition Map</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div id="mapa6" class="justify-content-center d-block"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Restricting MapBounds</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <<!-- div class="container-fluid m-2 text-center">
         <div class="row">
             <div class="col-12">
                 <h1>Maps Controls</h1>
@@ -50,13 +132,22 @@
                 <div id="mapa6"></div>
             </div>
         </div>
-    </div>
+        </div> -->
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>    
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3HTGbR2g2fA9AMdMoXbAIYMz2dIONoFs&callback=iniciaMapa" async defer></script>
-    
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3HTGbR2g2fA9AMdMoXbAIYMz2dIONoFs&callback=iniciaMapa"
+            async defer></script>
+
 </body>
+
 </html>
