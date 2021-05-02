@@ -17,10 +17,12 @@ function muestraRegistros(doc){
     borrar.className = "btn far fa-trash-alt fa-lg";
 
     nombre.type = "text";
+    nombre.value = registro.nombre;
     nombre.textContent = doc.data().nombre;
 
     codigo.type = "text";
     codigo.textContent = doc.data().codigo;
+    codigo.value = registro.codigo;
 
     tr.setAttribute("id", registro.id);
     tr.appendChild(nombre);
