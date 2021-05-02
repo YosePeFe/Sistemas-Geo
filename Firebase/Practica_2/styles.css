@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+html, body {
+    font-family: 'Montserrat', sans-serif;    
+    font-size: large;
+}
+
+.table td,
+.table tr {
+    text-align: center;
+    
+}
+
+table{
+    max-width: 100%;
+}
+
+thead{
+    color: #84b28c;
+}
+
+#archive{
+    color: #84b28c;
+}
+
+#btnborrar{
+    position: relative;
+    top: -2px; left: 88%;
+}
+
+#btneditar{
+    position: relative;
+    top: -2px; left: 7%;
+}
+
