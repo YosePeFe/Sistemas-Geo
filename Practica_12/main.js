@@ -259,10 +259,10 @@ function iniciaMapa() {
                 var datos = document.getElementById('datos');
 
                 var tabla = `
-                <table class="table table-striped">
+                <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col">Municipio</th>
+                            <th scope="col">Ciudad</th>
                             <th scope="col">País</th>
                             <th scope="col">Habitantes</th>
                         </tr>
