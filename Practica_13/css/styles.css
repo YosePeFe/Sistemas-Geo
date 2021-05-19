@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Modify the background color */
+
+.navbar {
+    box-shadow: -2px -3px 42px -8px rgba(0,0,0,0.75);
+}
+
+.fondo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 48%, rgba(0, 0, 0, 0.29) 100%), url("https://image.freepik.com/foto-gratis/futbol-concepto-exito-meta_1150-5276.jpg");
+    background-size: cover;
+    height: 100%;
+}
+/* Modify brand and text color */
+
+.name, .mb-3{
+    font-weight: bolder;
+}
+
+/* img {
+    width: 100%;
+} */
+/* <style>
+        img {
+            width: 100%;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        p {
+            color: white;
+            font-weight: 200;
+            text-align: center;
+        }
+
+        .name {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        h1 {
+            color: white;
+            font-size: 50px;
+            text-align: center;
+            font-weight: 100;
+        }
+    </style> */
